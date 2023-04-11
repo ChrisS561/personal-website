@@ -1,0 +1,70 @@
+  /* .container {
+    background-color: #212529;
+    color: #fff;
+  } */
+  body{
+    background-color: #000000;
+    color: #fff;
+  }
+  
+/* Style the form label and input fields */
+label {
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="message"],
+  textarea {
+    color: ;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the checkbox label */
+  .checkbox-label {
+    font-weight: normal;
+  }
+  
+  /* Style the ReCAPTCHA container */
+  .recaptcha-container {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Disable the submit button when the captcha is not completed */
+  button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+  }
+
+  @media only screen and (max-width: 768px) {
+    form {
+      padding: 1rem;
+    }
+}
+
+  

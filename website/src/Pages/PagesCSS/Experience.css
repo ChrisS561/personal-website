@@ -1,0 +1,15 @@
+.Header{
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.vertical-timeline-element-title{
+    color:black;
+}
+.vertical-timeline-element-subtitle{
+    color:black;
+}
+.subtext{
+    color:black;
+}
