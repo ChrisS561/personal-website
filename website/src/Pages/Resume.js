@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import NavBar from '../Components/NavBar';
-import ResumeImg from '../Images/Resume.jpg';
+import ResumeImg from '../Images/Resume1.jpg';
 import SocialMedia from '../Components/SocialMedia';
 import Footer2 from '../Components/Footer2';
 
