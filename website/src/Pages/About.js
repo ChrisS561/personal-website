@@ -45,11 +45,11 @@ export default function About() {
               .
             </p>
 
-            <p className="about-text">
+            {/* <p className="about-text">
               I am eager to join a team where I can apply my skills and contribute
               to impactful projects. I am a quick learner, a problem-solver and I
               enjoy staying up to date with new technologies and industry trends.
-            </p>
+            </p> */}
 
             <p className="about-text">
               During my internship at Apogee, Inc. as a Network Services Intern, I
