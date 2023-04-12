@@ -1,16 +1,18 @@
 import React from 'react';
 import SocialMedia from "./SocialMedia";
 import './ComponentCSS/NavAndHomepage.css';
-import profilePic from "../Images/IMG_3877.jpg";
-
-
-
+import smallProfilePic from "../Images/IMG_3877 2.jpg";
+import mediumProfilePic from "../Images/IMG_3877 2.jpg";
+import largeProfilePic from "../Images/IMG_3877 2.jpg";
 
 export default function HomePage() {
   return (
-    
     <div className="home-page">
-      <img src={profilePic} alt="Profile" className="home-page-image" />
+      <picture>
+        <source media="(max-width: 480px)" srcSet={smallProfilePic} />
+        <source media="(max-width: 768px)" srcSet={mediumProfilePic} />
+        <img src={largeProfilePic} alt="Profile" className="home-page-image" />
+      </picture>
       <h1 className="home-page-title">Christopher Smith Jr</h1>
       <h2 className="home-page-subtitle">New Grad Software Engineer</h2>
       <p className="home-page-description">
