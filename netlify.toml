@@ -1,0 +1,66 @@
+[[plugins]]
+  package = "netlify-plugin-cloudinary"
+
+  [plugins.inputs]
+  cloudName = "duym3yaqb"
+  deliveryType = "upload"
+
+  [[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+  # optional, fails build when a category is below a threshold
+  [plugins.inputs.thresholds]
+    performance = 0.9
+    accessibility = 0.9
+    best-practices = 0.9
+    seo = 0.9
+    pwa = 0.9
+
+  # optional, deploy the lighthouse report to a path under your site
+  [plugins.inputs]
+    output_path = "reports/lighthouse.html"
+
+    # Config for the Netlify Build Plugin: netlify-plugin-minify-html
+[[plugins]]
+  package = "netlify-plugin-minify-html"
+
+  # Specify which deploy contexts we'll minify HTML in.
+  # Supports any Deploy Contexts available in Netlify.
+  # https://docs.netlify.com/site-deploys/overview/#deploy-contexts
+  [plugins.inputs]
+    contexts = [
+      'production',
+      'branch-deploy',
+      'deploy-preview'
+    ]
+
+  # Optionally, override the default options for the minification
+  # https://github.com/kangax/html-minifier#options-quick-reference
+  [plugins.inputs.minifierOptions]
+    removeComments = false
+    collapseInlineTagWhitespace = false
+
+    [[plugins]]
+  package = "netlify-plugin-inline-critical-css"
+
+  # All inputs are optional, so you can omit this section.
+  # Defaults are shown below.
+  [plugins.inputs]
+    # A filter used to target specific files in the publish directory. Be sure to only target HTML files. This option is passed onto the readdirp library, see https://github.com/paulmillr/readdirp#options for more info.
+    fileFilter = ["*.html"]
+
+    # A filter used to target or ignore specific directories in the publish directory. This option is passed onto the readdirp library, see https://github.com/paulmillr/readdirp#options for more info.
+    directoryFilter = ["!node_modules"]
+
+    # You can refer to `critical`’s documentation: https://github.com/addyosmani/critical for all options below.
+    # Whether to remove the inlined styles from any stylesheet referenced in the HTML. Use with caution. Removing the critical CSS per page results in a unique async loaded CSS file for every page, meaning you can’t rely on cache across multiple pages.
+    extract = false
+
+    # An array of objects containing `width` and `height` properties to deliver critical CSS for multiple screen resolutions.
+    dimensions = [
+      { width = 414, height = 896 },
+      { width = 1920, height = 1080 }
+    ]
+
+    [[plugins]]
+package = "netlify-plugin-debug-cache"
