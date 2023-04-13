@@ -12,7 +12,7 @@ const NavBar = () => {
           <Navbar.Brand href="/">
             <img
               src={logo}
-              width="auto"
+              width="50"
               height="40"
               className="header-title"
               alt="CSJ logo"
