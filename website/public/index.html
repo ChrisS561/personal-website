@@ -10,20 +10,16 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="./Logo.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GNK4HP7LE8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+      gtag('config', 'G-GNK4HP7LE8');
+    </script>
+    <!-- End Google tag -->
     <title>Christopher Smith Jr</title>
   </head>
   <body>
@@ -40,12 +36,12 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("uJpx4DXA_gp3IDEks");
-   })();
-</script>
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.8.5/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+         emailjs.init("uJpx4DXA_gp3IDEks");
+      })();
+    </script>
   </body>
 </html>
