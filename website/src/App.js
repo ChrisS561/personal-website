@@ -1,6 +1,5 @@
 import './App.css';
 import Coverpage from './Pages/Coverpage';
-import gtag from './Components/gtag';
 import ReactGA from "react-ga";
 
 
@@ -12,7 +11,7 @@ ReactGA.pageview("/portfolio");
 ReactGA.pageview("/resume");
 ReactGA.pageview("/contact");
 ReactGA.pageview("/experience");
-
+// ReactGA.pageview(window.location.pathname + window.location.search);
   return (
     <>
     <Coverpage />

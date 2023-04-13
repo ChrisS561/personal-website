@@ -4,6 +4,7 @@ import ResumeImg from '../Images/Resume1.jpg';
 import SocialMedia from '../Components/SocialMedia';
 import Footer2 from '../Components/Footer2';
 import "./PagesCSS/Resume.css"
+import ReactGA from 'react-ga';
 
 export default function ResumePage() {
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
@@ -11,6 +12,10 @@ export default function ResumePage() {
 
   const handleDownload = () => {
     setShowSuccessMessage(true);
+    ReactGA.event({
+      category: "Download",
+      action: "Resume Downloaded",
+    });
   };
 
   return (
