@@ -1,3 +1,55 @@
+@keyframes slideInTop{
+  0%{
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInBottom{
+  0%{
+    transform: translateY(300px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInLeft{
+  0%{
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInRight{
+  0%{
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .home-page {
     display: flex;
     flex-direction: column;
@@ -9,13 +61,16 @@
     background-color: #212529; /* set the background color */
   }
   
+
   .home-page-title {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 10px;
-    color:#f8f9fa
+    color:#ffffff;
+    animation: slideInTop 1s ease-in-out 0s 1 normal both;
     
   }
+
   .home-page-image {
     display: block;
     margin: 0 auto;
@@ -32,14 +87,16 @@
     font-weight: bold;
     margin-bottom: 30px;
     color: #f8f9fa;
+    animation: slideInLeft 3s ease-in-out 0s 1 normal both;
   }
   
   .home-page-description {
     font-size: 18px;
     margin-bottom: 30px;
-    color: #f8f9fa;
+    color: #ffffff;
+    animation: slideInBottom 1s ease-in-out 0s 1 normal both;
   }
-  
+  /* button */
   .home-page-cta {
     padding: 10px 20px;
     /* background-color: #007bff; */
@@ -49,14 +106,23 @@
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
+    background-color: #f35a34;
+    /* border: 1px solid ; */
+    border-radius: 5px;
+
+
+    animation: bounce 1s infinite; 
+    transition: transform 0.3s ease 0s, background-color 0.3s ease 0s;
   }
   
   .home-page-cta:hover {
+    transform: translateY(-10px);
     background-color: #38b507;
+    color: var(--clr-light);
   }
-  .home-page-cta {
+  /* .home-page-cta {
     background-color: #f35a34;
-  }
+  } */
   
   /* add the same background color to the navbar */
   .navbar {
@@ -97,4 +163,5 @@
     background-color: #343a40;
   }
 
+  
   

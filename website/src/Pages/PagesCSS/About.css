@@ -1,3 +1,12 @@
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
 .about-heading{
     font-size: 3rem;
     font-weight: 600;
@@ -7,6 +16,7 @@
     color: orange;
     font-family: bold;
     font-style: italic;
+    animation: slideInFromRight 1s ease-in 0s 1 normal both;
 }
 .about-text{
     font-size: 1.2rem;

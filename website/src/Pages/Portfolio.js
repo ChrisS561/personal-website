@@ -26,7 +26,7 @@ export default function Github() {
 		<>
 			<NavBar />
 			<div className="container">
-				<h1 className="text-center my-5">Github Repository</h1>
+				<h1 className="head">Github Repository</h1>
 				<div className="row">
 					<div className="col-md-4">
 						<Card className="text-black">

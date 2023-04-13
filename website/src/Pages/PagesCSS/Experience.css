@@ -1,9 +1,16 @@
-.Header{
-    display: flex;
-justify-content: center;
-align-items: center;
-
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
+
+.header{
+animation: slideInFromLeft 1s ease 0s 1 normal both;
+}
+
 .vertical-timeline-element-title{
     color:black;
 }

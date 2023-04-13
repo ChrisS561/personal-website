@@ -1,4 +1,29 @@
+@keyframes slideInFromBottom{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes slideInFromTop{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.head{
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    animation: slideInFromTop 1s ease-in 0s 1 normal both;
+}
+
 .card {
     margin-bottom: 40px;
+    animation: slideInFromBottom 1s ease-in 0s 1 normal both;
   }
   

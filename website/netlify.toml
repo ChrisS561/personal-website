@@ -1,12 +1,17 @@
 [[plugins]]
   package = "netlify-plugin-cloudinary"
   
+  
   [plugins.inputs]
+    cloudName = "duym3yaqb"
+    deliveryType = "upload"
     cloudName = "duym3yaqb"
     deliveryType = "upload"
 
 [[plugins]]
+[[plugins]]
   package = "@netlify/plugin-lighthouse"
+  
   
   [plugins.inputs.thresholds]
     performance = 0.9
@@ -21,12 +26,14 @@
 [[plugins]]
   package = "netlify-plugin-minify-html"
   
+  
   [plugins.inputs]
     contexts = [
       'production',
       'branch-deploy',
       'deploy-preview'
     ]
+  
   
   [plugins.inputs.minifierOptions]
     removeComments = false
