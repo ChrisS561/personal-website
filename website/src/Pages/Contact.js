@@ -52,8 +52,8 @@ function Contact() {
 				<div className="row justify-content-center">
 					<div className="col-md-6">
 						<Form onSubmit={sendEmail}>
-							<h1 className="text-center mb-4">Contact Me</h1>
-							<p className="text-center mb-4">
+							<h1 className="text-center mb-4 slideInTop">Contact Me</h1>
+							<p className="text-center mb-4 slideInTop">
 								Don’t hesitate to reach out with the contact information on my{" "}
 								<a href="/resume" style={{ color: "orange" }}>
 									resume
