@@ -9,6 +9,9 @@
 
 .header{
 animation: slideInFromLeft 1s ease 0s 1 normal both;
+color: orange;
+font-family: bold;
+font-style: italic;
 }
 
 .vertical-timeline-element-title{

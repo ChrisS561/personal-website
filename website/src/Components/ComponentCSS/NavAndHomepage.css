@@ -74,8 +74,11 @@
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 10px;
-    color:#ffffff;
-    animation: slideInTop 1s ease-in-out 0s 1 normal both;
+    /* background: linear-gradient(to right, orange, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slideInTop 1s ease-in-out 0s 1 normal both; */
+    color: #ffffff;
     
   }
 
@@ -94,7 +97,11 @@
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 30px;
-    color: #f8f9fa;
+    background: linear-gradient(to right, orange, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* color: #f8f9fa; */
     animation: fadeIn 1s ease-in 1s 1 normal both;
   }
   
@@ -114,11 +121,10 @@
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
-    background-color: #f35a34;
+    background-color: orange;
     /* border: 1px solid ; */
     border-radius: 5px;
-
-
+    
     animation: bounce 1s infinite; 
     transition: transform 0.3s ease 0s, background-color 0.3s ease 0s;
   }
@@ -156,6 +162,33 @@
     }
   }
   
+  .ms-auto a {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .ms-auto a:nth-child(1):hover {
+    transform: scale(1.1);
+  }
+  
+  .ms-auto a:nth-child(2):hover {
+    transform: scale(1.1);
+  }
+  
+  .ms-auto a:nth-child(3):hover {
+    transform: scale(1.1);
+  }
+  
+  .ms-auto a:nth-child(4):hover {
+    transform: scale(1.1);
+  }
+  
+  .ms-auto a:nth-child(5):hover {
+    transform: scale(1.1);
+  }
+  
+  .ms-auto a:nth-child(6):hover {
+    transform: scale(1.1);
+  }
   
   
   .navbar-nav .nav-link {

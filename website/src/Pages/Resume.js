@@ -22,7 +22,7 @@ export default function ResumePage() {
     <>
       <NavBar />
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-        <h1 className="slideInTop"style={{ fontSize: '2.5rem', margin: '1rem 0' }}>Resume</h1>
+        <h1 className="slideInTops"style={{ fontSize: '2.5rem', margin: '1rem 0' }}>Resume</h1>
         <img src={ResumeImg} alt="Resume" style={{ maxWidth: '50%', height:"auto", borderRadius: '10px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.3)', margin: '1rem 0' }} />
         <a href={ResumeImg} download style={{ 
           textDecoration: 'none', 

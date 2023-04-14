@@ -20,7 +20,9 @@ export default function About() {
 						<img
 							src={profilePic}
 							alt="Profile"
-							className="img-fluid profile-pic"
+							className="img-fluid profile-pic "
+							style={{ paddingTop: "20px" }}
+
 						/>
 					</div>
 

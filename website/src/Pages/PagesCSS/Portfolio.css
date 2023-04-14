@@ -17,6 +17,9 @@
 
 .head{
     text-align: center;
+    color: orange;
+    font-family: bold;
+    font-style: italic;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
     animation: slideInFromTop 1s ease-in 0s 1 normal both;

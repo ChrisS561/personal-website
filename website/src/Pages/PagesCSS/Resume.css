@@ -1,5 +1,8 @@
-.slideInTop {
+.slideInTops {
     animation: slideInTop 1s ease-in-out;
+    color: orange;
+    font-family: bold;
+    font-style: italic;
   }
   
   @keyframes slideInTop {

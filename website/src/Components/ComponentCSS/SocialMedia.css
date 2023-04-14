@@ -1,0 +1,12 @@
+.btn-floating {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .btn-floating:nth-child(1):hover {
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
+  
+  .btn-floating:nth-child(2):hover {
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
+  
