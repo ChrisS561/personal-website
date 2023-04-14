@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../Components/NavBar";
 import SocialMedia from "../Components/SocialMedia";
 import Footer2 from "../Components/Footer2";
-import profilePic from "../Images/IMG_4672.jpg";
+import profilePic from "../Images/profile.jpg";
 import "../Pages/PagesCSS/About.css";
 
 // import FlipCard from "../Components/FlipCard";
