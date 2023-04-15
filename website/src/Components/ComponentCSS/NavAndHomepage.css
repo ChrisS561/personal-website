@@ -97,7 +97,7 @@
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 30px;
-    background: linear-gradient(to right, orange, #ffffff);
+    background: linear-gradient(to left, orange, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -162,33 +162,22 @@
     }
   }
   
-  .ms-auto a {
-    transition: transform 0.2s ease-in-out;
-  }
-  
-  .ms-auto a:nth-child(1):hover {
+/* Default styles */
+.ms-auto a {
+  transition: transform 0.2s ease-in-out;
+}
+
+.ms-auto a:hover {
+  transform: scale(1.2);
+}
+
+/* Media query for screens less than 992px wide */
+@media (max-width: 991px) {
+  .ms-auto a:hover {
     transform: scale(1.1);
   }
-  
-  .ms-auto a:nth-child(2):hover {
-    transform: scale(1.1);
-  }
-  
-  .ms-auto a:nth-child(3):hover {
-    transform: scale(1.1);
-  }
-  
-  .ms-auto a:nth-child(4):hover {
-    transform: scale(1.1);
-  }
-  
-  .ms-auto a:nth-child(5):hover {
-    transform: scale(1.1);
-  }
-  
-  .ms-auto a:nth-child(6):hover {
-    transform: scale(1.1);
-  }
+}
+
   
   
   .navbar-nav .nav-link {
