@@ -22,7 +22,6 @@ export default function About() {
 							alt="Profile"
 							className="img-fluid profile-pic "
 							style={{ paddingTop: "20px" }}
-
 						/>
 					</div>
 
@@ -31,7 +30,7 @@ export default function About() {
 
 						<p className="about-text">
 							Hello, my name is Christopher Smith Jr., and I am a new grad
-							software engineer eager to contribute my technical skills and
+							computer science major eager to contribute my technical skills and
 							knowledge to a company that values innovation and problem-solving.
 						</p>
 

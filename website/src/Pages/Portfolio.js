@@ -15,9 +15,6 @@ import {
 import project1 from "../Images/tic-tac-toe.png";
 import project2 from "../Images/Copy of The CoFo Concept2.png";
 import project3 from "../Images/Logo.png";
-import project4 from "../Images/snakes.png";
-import project5 from "../Images/tetris.png";
-import project6 from "../Images/haskell.png";
 
 const backgroundColor = "black";
 
@@ -66,7 +63,7 @@ export default function Github() {
 									that provides users with a range of tools and resources to
 									help them achieve their fitness goals. This project was
 									completed as a capstone project, and built using a combination
-									of JavaScript, HTML, CSS, and SQL. The website features a
+									of JavaScript, HTML, CSS, and (Firebase) NoSQL. The website features a
 									user-friendly interface that allows the client to easily write
 									workout plans for their customers and manage their business
 									with ease.
@@ -75,7 +72,7 @@ export default function Github() {
 									// href="https://github.com/bloomqub/COFOConcept"
 									style={{ backgroundColor: "green" }}
 								>
-									In progress
+									In Development
 								</Button>
 							</CardBody>
 						</Card>
@@ -98,91 +95,12 @@ export default function Github() {
 									and explore. I hope you enjoy exploring my website and learning
 									more about my work as a software engineer.
 								</CardText>
-								{/* <Button
+								<Button
 									href="https://github.com/ChrisS561/Portfolio"
 									style={{ backgroundColor: "green" }}
 								>
 									View on Github
-								</Button> */}
-							</CardBody>
-						</Card>
-					</div>
-					<div className="col-md-4">
-						<Card className="text-black">
-							<CardImg top width="100%" src={project4} alt="project4" />
-							<CardBody>
-								<CardTitle tag="h5">Project 4</CardTitle>
-								<CardSubtitle tag="h6" className="mb-2 text-muted">
-									Python Wikipedia Language Influence for Programming Languages
-								</CardSubtitle>
-								<CardText>
-									This project demonstrates my ability to use Python's Wikipedia
-									API wrapper and dictionaries to extract links to programming
-									languages and determine their level of influence. By analyzing
-									the frequency of language links and plotting the most
-									influential ones, I gained valuable experience in working with
-									APIs and data analysis. This project showcases my skills in
-									Python programming and data analysis.
-								</CardText>
-								{/* <Button
-									href="https://github.com/ChrisS561/Python-wikipedia-language-"
-									style={{ backgroundColor: "green" }}
-								>
-									View on Github
-								</Button> */}
-							</CardBody>
-						</Card>
-					</div>
-					<div className="col-md-4">
-						<Card className="text-black">
-							<CardImg top width="100%" src={project5} alt="project5" />
-							<CardBody>
-								<CardTitle tag="h5">Project 5</CardTitle>
-								<CardSubtitle tag="h6" className="mb-2 text-muted">
-									Prolog Tetris Board Solver for Programming Languages
-								</CardSubtitle>
-								<CardText>
-									This Prolog Tetris Board Solver project showcases the
-									backtracking capabilities of Prolog and its ability to find
-									all possible solutions for a given board size and set of
-									parts. We created a predicate called shape_fits to check if a
-									shape would fit into the grid, breaking it down into a 1D list
-									of blocks and checking the grid at each step using multiple
-									predicates.
-								</CardText>
-								{/* <Button
-									href="https://github.com/ChrisS561/Prolog-Tetris-Solver"
-									style={{ backgroundColor: "green" }}
-								>
-									View on Github
-								</Button> */}
-							</CardBody>
-						</Card>
-					</div>
-					<div className="col-md-4">
-						<Card className="text-black">
-							<CardImg top width="100%" src={project6} alt="project6" />
-							<CardBody>
-								<CardTitle tag="h5">Project 6</CardTitle>
-								<CardSubtitle tag="h6" className="mb-2 text-muted">
-									Haskell L-Systems for Programming Languages
-								</CardSubtitle>
-								<CardText>
-									This project explores L-Systems and Fractals in Haskell,
-									demonstrating the importance of recursion in Haskell's
-									recursive nature. The code uses grammatical systems to
-									generate new sentences by iteratively re-writing a given
-									sentence as a group of symbols, and defines the L systems
-									axiom, symbols, and production. With this program, I was able
-									to create fractals, including the Lévy curve, and the included
-									commands file provided guidelines and error messages.
-								</CardText>
-								{/* <Button
-									href="https://github.com/ChrisS561/Haskel-L-systems"
-									style={{ backgroundColor: "green" }}
-								>
-									View on Github
-								</Button> */}
+								</Button>
 							</CardBody>
 						</Card>
 					</div>
