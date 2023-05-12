@@ -30,9 +30,9 @@ export default function HomePage() {
 				className="home-page-image"
 			/>
 			<h1 className="home-page-title">Christopher Smith Jr</h1>
-			<h2 className="home-page-subtitle">New Grad Software Engineer</h2>
+			<h2 className="home-page-subtitle">New Grad Computer Science Major</h2>
 			<p className="home-page-description">
-				Hi, my name is Christopher Smith Jr and I'm a software engineer with
+				Hi, my name is Christopher Smith Jr and I'm a Computer Science Major with
 				experience in web development. I'm passionate about solving problems and
 				creating software that can make a positive impact on people's lives.
 			</p>
@@ -46,7 +46,7 @@ export default function HomePage() {
 			<Suspense fallback={<div>Loading...</div>}>
 				<SocialMedia />
 			</Suspense>
-      <Skills />
+      {/* <Skills /> */}
 		</div>
 	);
 }
