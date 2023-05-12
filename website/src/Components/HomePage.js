@@ -1,7 +1,6 @@
 import React, { lazy, Suspense } from "react";
 import { Link } from "react-router-dom";
 import largeProfilePic from "../Images/IMG_3877 2.jpg";
-import Skills from "./Skills";
 import background from "../Images/Pxfuel.jpg";
 
 const SocialMedia = lazy(() => import("./SocialMedia"));
