@@ -1,24 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.01f55db3.css",
-    "main.js": "/static/js/main.beda3a2e.js",
+    "main.css": "/static/css/main.4cefefbb.css",
+    "main.js": "/static/js/main.55c645b6.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
-    "static/media/IMG_4672.jpg": "/static/media/IMG_4672.f79c98815850f11a0b8e.jpg",
     "static/media/Resume1.jpg": "/static/media/Resume1.d0ccb891e1260927ec07.jpg",
     "static/media/IMG_3877 2.jpg": "/static/media/IMG_3877 2.faeb036cecddd53072cb.jpg",
     "static/media/Copy of The CoFo Concept2.png": "/static/media/Copy of The CoFo Concept2.e684885300300093d508.png",
-    "static/media/haskell.png": "/static/media/haskell.110adca805211a97cb78.png",
+    "static/media/profile.jpg": "/static/media/profile.0841be1e1bbcc39eda89.jpg",
+    "static/media/Pxfuel.jpg": "/static/media/Pxfuel.8d9c4c25bbae3b47c6b1.jpg",
     "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.380f90abbb55e9742862.png",
-    "static/media/tetris.png": "/static/media/tetris.7d3439aaeb42078e1f43.png",
-    "static/media/snakes.png": "/static/media/snakes.ce5a497fc954b4987fa6.png",
     "static/media/Logo.png": "/static/media/Logo.228e4dc859f886ab5199.png",
     "index.html": "/index.html",
-    "main.01f55db3.css.map": "/static/css/main.01f55db3.css.map",
-    "main.beda3a2e.js.map": "/static/js/main.beda3a2e.js.map",
+    "main.4cefefbb.css.map": "/static/css/main.4cefefbb.css.map",
+    "main.55c645b6.js.map": "/static/js/main.55c645b6.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01f55db3.css",
-    "static/js/main.beda3a2e.js"
+    "static/css/main.4cefefbb.css",
+    "static/js/main.55c645b6.js"
   ]
 }
