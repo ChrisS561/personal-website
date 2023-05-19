@@ -69,10 +69,10 @@ export default function Github() {
 									with ease.
 								</CardText>
 								<Button
-									// href="https://github.com/bloomqub/COFOConcept"
+									href="https://github.com/ChrisS561/COFOConcept-1"
 									style={{ backgroundColor: "green" }}
 								>
-									In Development
+									View on Github
 								</Button>
 							</CardBody>
 						</Card>
