@@ -1,8 +1,8 @@
-import React from "react";
-import NavBar from "../Components/NavBar";
-import SocialMedia from "../Components/SocialMedia";
-import Footer2 from "../Components/Footer2";
-import "./PagesCSS/Portfolio.css";
+import React from 'react';
+import NavBar from '../Components/NavBar';
+import SocialMedia from '../Components/SocialMedia';
+import Footer2 from '../Components/Footer2';
+import './PagesCSS/Portfolio.css';
 import {
 	Card,
 	CardImg,
@@ -11,12 +11,13 @@ import {
 	CardSubtitle,
 	CardText,
 	Button,
-} from "reactstrap";
-import project1 from "../Images/tic-tac-toe.png";
-import project2 from "../Images/Copy of The CoFo Concept2.png";
-import project3 from "../Images/Logo.png";
+} from 'reactstrap';
+import project1 from '../Images/tic-tac-toe.png';
+import project2 from '../Images/Copy of The CoFo Concept2.png';
+import project3 from '../Images/Logo.png';
+import project4 from '../Images/Project4.jpg';
 
-const backgroundColor = "black";
+const backgroundColor = 'black';
 
 export default function Github() {
 	return (
@@ -43,7 +44,7 @@ export default function Github() {
 								</CardText>
 								<Button
 									href="https://github.com/ChrisS561/Tic-Tac-Toe"
-									style={{ backgroundColor: "green" }}
+									style={{ backgroundColor: 'green' }}
 								>
 									View on Github
 								</Button>
@@ -63,14 +64,14 @@ export default function Github() {
 									that provides users with a range of tools and resources to
 									help them achieve their fitness goals. This project was
 									completed as a capstone project, and built using a combination
-									of JavaScript, HTML, CSS, and (Firebase) NoSQL. The website features a
-									user-friendly interface that allows the client to easily write
-									workout plans for their customers and manage their business
-									with ease.
+									of JavaScript, HTML, CSS, and (Firebase) NoSQL. The website
+									features a user-friendly interface that allows the client to
+									easily write workout plans for their customers and manage
+									their business with ease.
 								</CardText>
 								<Button
 									href="https://github.com/ChrisS561/COFOConcept-1"
-									style={{ backgroundColor: "green" }}
+									style={{ backgroundColor: 'green' }}
 								>
 									View on Github
 								</Button>
@@ -92,12 +93,37 @@ export default function Github() {
 									potential clients and employers. Built using React.js and
 									Bootstrap, the website features a sleek and modern design,
 									with a user-friendly interface that makes it easy to navigate
-									and explore. I hope you enjoy exploring my website and learning
-									more about my work as a software engineer.
+									and explore. I hope you enjoy exploring my website and
+									learning more about my work as a software engineer.
 								</CardText>
 								<Button
 									href="https://github.com/ChrisS561/Portfolio"
-									style={{ backgroundColor: "green" }}
+									style={{ backgroundColor: 'green' }}
+								>
+									View on Github
+								</Button>
+							</CardBody>
+						</Card>
+					</div>
+					<div className="col-md-4">
+						<Card className="text-black">
+							<CardImg top width="100%" src={project4} alt="project4" />
+							<CardBody>
+								<CardTitle tag="h5">Project 4</CardTitle>
+								<CardSubtitle tag="h6" className="mb-2 text-muted">
+									Memorable Website
+								</CardSubtitle>
+								<CardText>
+									Memorable Website is a personalized website designed to
+									celebrate special occasions and create memorable experiences.
+									With a focus on thoughtful and meaningful gifts, the website
+									offers a unique platform for users to customize and present
+									their heartfelt messages, photos, video and mini games for
+									friends or loved ones.
+								</CardText>
+								<Button
+									href="https://github.com/ChrisS561/MemorableWebsite"
+									style={{ backgroundColor: 'green' }}
 								>
 									View on Github
 								</Button>
@@ -106,7 +132,7 @@ export default function Github() {
 					</div>
 				</div>
 			</div>
-			<SocialMedia/>
+			<SocialMedia />
 			<Footer2 backgroundColor={backgroundColor} />
 		</>
 	);

@@ -29,12 +29,16 @@ export default function Experience() {
 						iconStyle={{ background: '#007acc', color: 'white' }}
 						icon={<FontAwesomeIcon icon={faBriefcase} />}
 					>
-						<h3 className="vertical-timeline-element-title">The Gathering Place.</h3>
+						<h3 className="vertical-timeline-element-title">
+							The Gathering Place.
+						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
 							Computer Science Intern
 						</h4>
 						<p className="subtext">San Antonio, Remote</p>
-						<p className="subtext">Skills: JavaScript, Typescript, React, Material UI, Github, Recoil</p>
+						<p className="subtext">
+							Skills: JavaScript, Typescript, React, Material UI, Github, Recoil
+						</p>
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
 						className="vertical-timeline-element--education"
@@ -61,7 +65,10 @@ export default function Experience() {
 							Network Services Intern
 						</h4>
 						<p className="subtext">Austin, TX</p>
-						<p className="subtext">Skills: Linux, JavaScript</p>
+						<p className="subtext">
+							Skills: Linux, JavaScript, Network troubleshooting, Hardware and
+							software installation.
+						</p>
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
 						className="vertical-timeline-element--education"
