@@ -25,12 +25,18 @@ export default function Github() {
 			<NavBar />
 			<div className="container">
 				<h1 className="head">Github Repository</h1>
+				<h2
+					className="
+				head"
+				>
+					Total Projects: 4
+				</h2>
 				<div className="row">
 					<div className="col-md-4">
 						<Card className="text-black">
 							<CardImg top width="100%" src={project4} alt="project4" />
 							<CardBody>
-								<CardTitle tag="h5">Project 4</CardTitle>
+								<CardTitle tag="h5">Project 1</CardTitle>
 								<CardSubtitle tag="h6" className="mb-2 text-muted">
 									CookBook Wizard
 								</CardSubtitle>
@@ -116,7 +122,7 @@ export default function Github() {
 						<Card className="text-black">
 							<CardImg top width="100%" src={project1} alt="project1" />
 							<CardBody>
-								<CardTitle tag="h5">Project 1</CardTitle>
+								<CardTitle tag="h5">Project 4</CardTitle>
 								<CardSubtitle tag="h6" className="mb-2 text-muted">
 									Tic-Tic-Toe
 								</CardSubtitle>
