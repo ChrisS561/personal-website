@@ -15,7 +15,7 @@ import {
 import project1 from '../Images/tic-tac-toe.png';
 import project2 from '../Images/Copy of The CoFo Concept2.png';
 import project3 from '../Images/Logo.png';
-import project4 from '../Images/Project4.jpg';
+import project4 from '../Images/Cookbook.png';
 
 const backgroundColor = 'black';
 
@@ -111,18 +111,25 @@ export default function Github() {
 							<CardBody>
 								<CardTitle tag="h5">Project 4</CardTitle>
 								<CardSubtitle tag="h6" className="mb-2 text-muted">
-									Memorable Website
+									CookBook Wizard
 								</CardSubtitle>
 								<CardText>
-									Memorable Website is a personalized website designed to
-									celebrate special occasions and create memorable experiences.
-									With a focus on thoughtful and meaningful gifts, the website
-									offers a unique platform for users to customize and present
-									their heartfelt messages, photos, video and mini games for
-									friends or loved ones.
+									This project showcases my skills in developing a recipe search
+									web application using React.js, Firebase for authentication,
+									and external APIs. The main functionality of the application
+									allows users to input the ingredients they have in their
+									house, and based on their input, the application displays a
+									list of recipes that can be made using those ingredients. The
+									project leverages the Spoonacular Recipe - Food - Nutrition
+									API to fetch and display the recipes dynamically.
+									Additionally, the application incorporates a weather API to
+									provide users with their local weather information. With its
+									user-friendly interface and seamless integration of APIs, this
+									project demonstrates my ability to build interactive and
+									practical web applications.
 								</CardText>
 								<Button
-									href="https://github.com/ChrisS561/MemorableWebsite"
+									href="https://cookbookwizard.netlify.app"
 									style={{ backgroundColor: 'green' }}
 								>
 									View on Github
