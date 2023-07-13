@@ -28,25 +28,32 @@ export default function Github() {
 				<div className="row">
 					<div className="col-md-4">
 						<Card className="text-black">
-							<CardImg top width="100%" src={project1} alt="project1" />
+							<CardImg top width="100%" src={project4} alt="project4" />
 							<CardBody>
-								<CardTitle tag="h5">Project 1</CardTitle>
+								<CardTitle tag="h5">Project 4</CardTitle>
 								<CardSubtitle tag="h6" className="mb-2 text-muted">
-									Tic-Tic-Toe
+									CookBook Wizard
 								</CardSubtitle>
 								<CardText>
-									This is a web-based implementation of the classic game, Tic
-									Tac Toe, built using JavaScript, HTML, and CSS. The game
-									features a clean and intuitive user interface that allows
-									players to easily make their moves and keeps track of the game
-									progress. The program includes logic to detect when a player
-									has won the game, and displays a message accordingly.
+									This project showcases my skills in developing a recipe search
+									web application using React.js, Firebase for authentication,
+									and external APIs. The main functionality of the application
+									allows users to input the ingredients they have in their
+									house, and based on their input, the application displays a
+									list of recipes that can be made using those ingredients. The
+									project leverages the Spoonacular Recipe - Food - Nutrition
+									API to fetch and display the recipes dynamically.
+									Additionally, the application incorporates a weather API to
+									provide users with their local weather information. With its
+									user-friendly interface and seamless integration of APIs, this
+									project demonstrates my ability to build interactive and
+									practical web applications.
 								</CardText>
 								<Button
-									href="https://github.com/ChrisS561/Tic-Tac-Toe"
+									href="https://cookbookwizard.netlify.app"
 									style={{ backgroundColor: 'green' }}
 								>
-									View on Github
+									View Website
 								</Button>
 							</CardBody>
 						</Card>
@@ -107,32 +114,25 @@ export default function Github() {
 					</div>
 					<div className="col-md-4">
 						<Card className="text-black">
-							<CardImg top width="100%" src={project4} alt="project4" />
+							<CardImg top width="100%" src={project1} alt="project1" />
 							<CardBody>
-								<CardTitle tag="h5">Project 4</CardTitle>
+								<CardTitle tag="h5">Project 1</CardTitle>
 								<CardSubtitle tag="h6" className="mb-2 text-muted">
-									CookBook Wizard
+									Tic-Tic-Toe
 								</CardSubtitle>
 								<CardText>
-									This project showcases my skills in developing a recipe search
-									web application using React.js, Firebase for authentication,
-									and external APIs. The main functionality of the application
-									allows users to input the ingredients they have in their
-									house, and based on their input, the application displays a
-									list of recipes that can be made using those ingredients. The
-									project leverages the Spoonacular Recipe - Food - Nutrition
-									API to fetch and display the recipes dynamically.
-									Additionally, the application incorporates a weather API to
-									provide users with their local weather information. With its
-									user-friendly interface and seamless integration of APIs, this
-									project demonstrates my ability to build interactive and
-									practical web applications.
+									This is a web-based implementation of the classic game, Tic
+									Tac Toe, built using JavaScript, HTML, and CSS. The game
+									features a clean and intuitive user interface that allows
+									players to easily make their moves and keeps track of the game
+									progress. The program includes logic to detect when a player
+									has won the game, and displays a message accordingly.
 								</CardText>
 								<Button
-									href="https://cookbookwizard.netlify.app"
+									href="https://github.com/ChrisS561/Tic-Tac-Toe"
 									style={{ backgroundColor: 'green' }}
 								>
-									View Website
+									View on Github
 								</Button>
 							</CardBody>
 						</Card>
