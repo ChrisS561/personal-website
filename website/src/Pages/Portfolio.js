@@ -132,7 +132,7 @@ export default function Github() {
 									href="https://cookbookwizard.netlify.app"
 									style={{ backgroundColor: 'green' }}
 								>
-									View on Github
+									View Website
 								</Button>
 							</CardBody>
 						</Card>
