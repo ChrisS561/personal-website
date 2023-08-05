@@ -20,6 +20,7 @@ import project4 from '../Images/Cookbook.png';
 const backgroundColor = 'black';
 
 export default function Github() {
+	const pictures = [project1,project2,project3,project4]
 	return (
 		<>
 			<NavBar />
@@ -29,7 +30,7 @@ export default function Github() {
 					className="
 				head"
 				>
-					Total Projects: 4
+					Total Projects: {pictures.length}
 				</h2>
 				<div className="row">
 					<div className="col-md-4">
