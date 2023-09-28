@@ -23,3 +23,48 @@ font-style: italic;
 .subtext{
     color:black;
 }
+
+.bubble {
+    background-color: #007acc;
+    /* Background color of the bubble */
+    color: white;
+    /* Text color inside the bubble */
+    padding: 8px 12px;
+    /* Padding inside the bubble */
+    border-radius: 20px;
+    /* Rounded corners to make it look like a bubble */
+    display: inline-block;
+    /* Display the bubble as an inline block */
+    margin-top: 8px;
+    /* Add some spacing between bubbles */
+}
+
+.bubbleOrange {
+    background-color: #f26622;
+    /* Background color of the bubble */
+    color: white;
+    /* Text color inside the bubble */
+    padding: 8px 12px;
+    margin-right: 5px;
+    /* Padding inside the bubble */
+    border-radius: 20px;
+    /* Rounded corners to make it look like a bubble */
+    display: inline-block;
+    /* Display the bubble as an inline block */
+    margin-top: 8px;
+    /* Add some spacing between bubbles */
+}
+
+.bubblePort {
+    background-color:orange;
+    /* Background color of the bubble */
+    color: white;
+    /* Text color inside the bubble */
+    padding: 5px 5px;
+    margin-right: 5px;
+    /* Padding inside the bubble */
+    border-radius: 20px;
+    /* Rounded corners to make it look like a bubble */
+    display: inline-block;
+   
+}
