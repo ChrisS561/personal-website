@@ -30,3 +30,54 @@
     animation: slideInFromBottom 1s ease-in 0s 1 normal both;
   }
   
+/* Add this CSS to your Portfolio.css file or create a new CSS file */
+
+/* Style the card container */
+.card-container {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the card image */
+.card-img {
+    max-height: 300px;
+    /* Adjust the maximum height as needed */
+    object-fit: cover;
+}
+
+/* Style the card title */
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Style the card subtitle */
+.card-subtitle {
+    font-size: 16px;
+    color: #888;
+}
+
+/* Style the card text */
+.card-text {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Style the buttons */
+.card-button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.card-button:hover {
+    background-color: darkgreen;
+}
