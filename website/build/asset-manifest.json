@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.4cefefbb.css",
-    "main.js": "/static/js/main.ef9b18da.js",
+    "main.js": "/static/js/main.33b3ca6d.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
-    "static/media/Resume.jpg": "/static/media/Resume.0b342281a48087a3d825.jpg",
+    "static/media/Resume.jpg": "/static/media/Resume.e7fc64b15c2f0eeab28d.jpg",
     "static/media/IMG_3877 2.jpg": "/static/media/IMG_3877 2.faeb036cecddd53072cb.jpg",
     "static/media/Copy of The CoFo Concept2.png": "/static/media/Copy of The CoFo Concept2.e684885300300093d508.png",
     "static/media/profile.jpg": "/static/media/profile.0841be1e1bbcc39eda89.jpg",
-    "static/media/Project4.jpg": "/static/media/Project4.0acbd1297d6f05441aa0.jpg",
+    "static/media/Cookbook.png": "/static/media/Cookbook.419f3ea0c50eb85f1f47.png",
     "static/media/Pxfuel.jpg": "/static/media/Pxfuel.8d9c4c25bbae3b47c6b1.jpg",
     "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.380f90abbb55e9742862.png",
     "static/media/Logo.png": "/static/media/Logo.228e4dc859f886ab5199.png",
     "index.html": "/index.html",
     "main.4cefefbb.css.map": "/static/css/main.4cefefbb.css.map",
-    "main.ef9b18da.js.map": "/static/js/main.ef9b18da.js.map",
+    "main.33b3ca6d.js.map": "/static/js/main.33b3ca6d.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4cefefbb.css",
-    "static/js/main.ef9b18da.js"
+    "static/js/main.33b3ca6d.js"
   ]
 }
