@@ -1,18 +1,21 @@
-import React from "react";
-import NavBar from "../Components/NavBar";
-import Footer2 from "../Components/Footer2";
-import SocialMedia from "../Components/SocialMedia";
-import { faGraduationCap, faBriefcase } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "../Pages/PagesCSS/Experience.css";
+import React from 'react';
+import NavBar from '../Components/NavBar';
+import Footer2 from '../Components/Footer2';
+import SocialMedia from '../Components/SocialMedia';
+import {
+	faGraduationCap,
+	faBriefcase,
+} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import '../Pages/PagesCSS/Experience.css';
 
 import {
 	VerticalTimeline,
 	VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
+} from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 
-const backgroundColor = "#1a1a1a";
+const backgroundColor = '#1a1a1a';
 
 export default function Experience() {
 	return (
@@ -37,7 +40,14 @@ export default function Experience() {
 						</h4>
 						<p className="subtext">San Antonio, Remote</p>
 						<p className="subtext">
-							Skills: JavaScript, Typescript, React, Material UI, Github, Recoil
+							Skills: <span className="bubble">JavaScript</span>{' '}
+							<span className="bubble">Typescript</span>{' '}
+							<span className="bubble">React</span>{' '}
+							<span className="bubble">Material UI</span>{' '}
+							<span className="bubble">Github</span>{' '}
+							<span className="bubble">Git</span>{' '}
+							<span className="bubble">Recoil</span>{' '}
+							<span className="bubble">Node.js</span>
 						</p>
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
@@ -53,6 +63,14 @@ export default function Experience() {
 							Bachelor's Degree in Computer Science
 						</h4>
 						<p className="subtext">Austin, TX</p>
+						<p className="subtext">
+							Skills:{' '}
+							<span className="bubbleOrange">Full Stack Development</span>
+							<span className="bubbleOrange">Java</span>
+							<span className="bubbleOrange">C</span>
+							<span className="bubbleOrange">C++</span>
+							<span className="bubbleOrange">Python</span>
+						</p>
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
 						className="vertical-timeline-element--work"
@@ -66,8 +84,9 @@ export default function Experience() {
 						</h4>
 						<p className="subtext">Austin, TX</p>
 						<p className="subtext">
-							Skills: Linux, JavaScript, Network troubleshooting, Hardware and
-							software installation.
+							Skills: <span className="bubble">Linux</span>{' '}
+							<span className="bubble">Network troubleshooting</span>{' '}
+							<span className="bubble">Hardware and software installation</span>
 						</p>
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
