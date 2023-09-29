@@ -22,30 +22,39 @@ const styles = {
 	padding: '20px', // Add padding for better spacing
 };
 
+// Define imageStyles conditionally inside the component based on screen width
 const imageStyles = {
 	borderRadius: '50%',
-	width: '200px', // Reduce image size for smaller screens
-	height: '200px', // Reduce image size for smaller screens
+	width: '250px', // Default size
+	height: '250px', // Default size
 	border: '5px solid white',
-	marginBottom: '10px', // Adjust margin for smaller screens
+	marginBottom: '20px', // Default margin
 };
 
 const titleStyles = {
-	fontSize: '2rem', // Reduce font size for smaller screens
-	marginBottom: '5px', // Adjust margin for smaller screens
+	fontSize: '2.5rem',
+	marginBottom: '5px',
 };
 
 const subtitleStyles = {
-	fontSize: '1.5rem', // Reduce font size for smaller screens
+	fontSize: '1.5rem',
 	fontStyle: 'italic',
-	marginBottom: '10px', // Adjust margin for smaller screens
+	marginBottom: '10px',
 };
 
 const descriptionStyles = {
-	maxWidth: '80%', // Adjust maximum width for smaller screens
-	fontSize: '1rem', // Reduce font size for smaller screens
-	margin: '10px 0', // Adjust margin for smaller screens
+	maxWidth: '80%',
+	fontSize: '1rem',
+	margin: '10px 0',
 };
+
+if (window.innerWidth <= 390) {
+	// Adjust styles for smaller screens
+	imageStyles.width = '200px';
+	imageStyles.height = '200px';
+	imageStyles.marginBottom = '10px';
+	titleStyles.fontSize = '2.0rem';
+}
 
 export default function HomePage() {
 	const [currentWordIndex, setCurrentWordIndex] = useState(0);
