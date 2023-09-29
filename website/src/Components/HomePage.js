@@ -12,51 +12,47 @@ const styles = {
 	backgroundSize: 'cover',
 	backgroundPosition: 'center',
 	backgroundRepeat: 'no-repeat',
-	height: '100vh',
-	width: '100vw',
+	minHeight: '100vh', // Use minHeight to ensure content doesn't overflow
 	display: 'flex',
 	flexDirection: 'column',
 	alignItems: 'center',
 	justifyContent: 'center',
-	color: 'white', // Text color
-	textAlign: 'center', // Center align text
+	color: 'white',
+	textAlign: 'center',
 };
 
 const imageStyles = {
 	borderRadius: '50%',
-	width: '250px', // Adjust the size as needed
-	height: '250px', // Adjust the size as needed
-	border: '5px solid white', // Add a border around the image
-	marginBottom: '20px', // Add space below the image
+	width: '250px',
+	height: '250px',
+	border: '5px solid white',
+	marginBottom: '20px',
 };
 
 const titleStyles = {
-	fontSize: '2.5rem', // Increase the font size
-	marginBottom: '10px', // Add space below the title
+	fontSize: '2.5rem',
+	marginBottom: '10px',
 };
 
 const subtitleStyles = {
-	fontSize: '1.8rem', // Increase the font size
-	fontStyle: 'italic', // Make it italic
+	fontSize: '1.8rem',
+	fontStyle: 'italic',
 };
 
 const descriptionStyles = {
-	maxWidth: '600px', // Limit the width of the description
-	fontSize: '1.2rem', // Increase the font size
-	margin: '20px 0', // Add space around the description
+	maxWidth: '600px',
+	fontSize: '1.2rem',
+	margin: '20px 0',
 };
-
 
 export default function HomePage() {
 	const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
 	useEffect(() => {
-		// Create a timer to switch between words every 2 seconds (adjust as needed)
 		const timer = setInterval(() => {
 			setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
 		}, 4000);
 
-		// Clear the timer when the component unmounts
 		return () => {
 			clearInterval(timer);
 		};
@@ -67,11 +63,11 @@ export default function HomePage() {
 			<h1>👋 Welcome to my Portfolio!</h1>
 			<img
 				srcSet={`${largeProfilePic} 1024w,
-                  ${largeProfilePic} 768w,
-                  ${largeProfilePic} 480w`}
+              ${largeProfilePic} 768w,
+              ${largeProfilePic} 480w`}
 				sizes="(max-width: 480px) 100vw,
-               (max-width: 768px) 50vw,
-               33vw"
+             (max-width: 768px) 50vw,
+             33vw"
 				src={largeProfilePic}
 				alt="Profile"
 				className="home-page-image"
@@ -94,13 +90,12 @@ export default function HomePage() {
 					people's lives.
 				</p>
 			</div>
-			<Link to="/About" className="home-page-cta" >
+			<Link to="/About" className="home-page-cta">
 				Learn More About Me
 			</Link>
 			<Suspense fallback={<div>Loading...</div>}>
 				<SocialMedia />
 			</Suspense>
-			{/* <Skills /> */}
 		</div>
 	);
 }

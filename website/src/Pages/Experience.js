@@ -36,7 +36,7 @@ export default function Experience() {
 							The Gathering Place.
 						</h3>
 						<h4 className="vertical-timeline-element-subtitle">
-							Computer Science Intern
+							Software Engineer Intern
 						</h4>
 						<p className="subtext">San Antonio, Remote</p>
 						<p className="subtext">

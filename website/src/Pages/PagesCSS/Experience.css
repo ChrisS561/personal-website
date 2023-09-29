@@ -19,6 +19,7 @@ font-style: italic;
 }
 .vertical-timeline-element-subtitle{
     color:black;
+    font-style: oblique;
 }
 .subtext{
     color:black;

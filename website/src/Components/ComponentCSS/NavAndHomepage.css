@@ -194,6 +194,54 @@
   }
 }
 
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .home-page-title {
+    font-size: 36px;
+    /* Decrease the font size for smaller screens */
+  }
+     .home-page-subtitle {
+       font-size: 24px;
+       /* Decrease the font size for smaller screens */
+     }
+  
+     .home-page-description {
+       font-size: 16px;
+       /* Decrease the font size for smaller screens */
+     }
+  
+     .home-page-cta {
+       font-size: 16px;
+       /* Decrease the font size for smaller screens */
+       padding: 8px 16px;
+       /* Adjust padding for smaller screens */
+     }
+     }
+
+ @media (max-width: 390px) {
+   .home-page-title {
+     font-size: 25px;
+     /* Decrease the font size for smaller screens */
+   }
+
+   .home-page-subtitle {
+     font-size: 24px;
+     /* Decrease the font size for smaller screens */
+   }
+
+   .home-page-description {
+     font-size: 16px;
+     /* Decrease the font size for smaller screens */
+   }
+
+   .home-page-cta {
+     font-size: 16px;
+     /* Decrease the font size for smaller screens */
+     padding: 8px 16px;
+     /* Adjust padding for smaller screens */
+   }
+ }
+
   
   
   .navbar-nav .nav-link {
