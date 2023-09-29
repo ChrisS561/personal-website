@@ -12,37 +12,39 @@ const styles = {
 	backgroundSize: 'cover',
 	backgroundPosition: 'center',
 	backgroundRepeat: 'no-repeat',
-	minHeight: '100vh', // Use minHeight to ensure content doesn't overflow
+	minHeight: '100vh',
 	display: 'flex',
 	flexDirection: 'column',
 	alignItems: 'center',
 	justifyContent: 'center',
 	color: 'white',
 	textAlign: 'center',
+	padding: '20px', // Add padding for better spacing
 };
 
 const imageStyles = {
 	borderRadius: '50%',
-	width: '250px',
-	height: '250px',
+	width: '200px', // Reduce image size for smaller screens
+	height: '200px', // Reduce image size for smaller screens
 	border: '5px solid white',
-	marginBottom: '20px',
+	marginBottom: '10px', // Adjust margin for smaller screens
 };
 
 const titleStyles = {
-	fontSize: '2.5rem',
-	marginBottom: '10px',
+	fontSize: '2rem', // Reduce font size for smaller screens
+	marginBottom: '5px', // Adjust margin for smaller screens
 };
 
 const subtitleStyles = {
-	fontSize: '1.8rem',
+	fontSize: '1.5rem', // Reduce font size for smaller screens
 	fontStyle: 'italic',
+	marginBottom: '10px', // Adjust margin for smaller screens
 };
 
 const descriptionStyles = {
-	maxWidth: '600px',
-	fontSize: '1.2rem',
-	margin: '20px 0',
+	maxWidth: '80%', // Adjust maximum width for smaller screens
+	fontSize: '1rem', // Reduce font size for smaller screens
+	margin: '10px 0', // Adjust margin for smaller screens
 };
 
 export default function HomePage() {
@@ -60,26 +62,18 @@ export default function HomePage() {
 
 	return (
 		<div className="home-page" style={styles}>
-			<h1>👋 Welcome to my Portfolio!</h1>
+			<h1 style={titleStyles}>👋 Welcome to my Portfolio!</h1>
 			<img
-				srcSet={`${largeProfilePic} 1024w,
-              ${largeProfilePic} 768w,
-              ${largeProfilePic} 480w`}
-				sizes="(max-width: 480px) 100vw,
-             (max-width: 768px) 50vw,
-             33vw"
 				src={largeProfilePic}
 				alt="Profile"
 				className="home-page-image"
 				style={imageStyles}
 			/>
-			<h1 className="home-page-title" style={titleStyles}>
-				Christopher Smith Jr
-			</h1>
-			<div className="home-page-subtitle" style={subtitleStyles}>
+			<h1 className="home-page-title">Christopher Smith Jr</h1>
+			<div className="home-page-subtitle">
 				<span className="word">{words[currentWordIndex]}</span>
 			</div>
-			<div class="home-page-description" style={descriptionStyles}>
+			<div className="home-page-description" style={descriptionStyles}>
 				<p>Hello, I'm Christopher Smith Jr, a Software Engineer 🚀</p>
 				<p>
 					I'm not just your average coder. I'm a problem-solving enthusiast with
