@@ -44,7 +44,7 @@ const subtitleStyles = {
 
 const descriptionStyles = {
 	maxWidth: '80%',
-	fontSize: '1rem',
+	fontSize: '1.2rem',
 	margin: '10px 0',
 };
 
@@ -54,6 +54,7 @@ if (window.innerWidth <= 390) {
 	imageStyles.height = '200px';
 	imageStyles.marginBottom = '10px';
 	titleStyles.fontSize = '2.0rem';
+	descriptionStyles.fontSize = "1.1rem"
 }
 
 export default function HomePage() {
