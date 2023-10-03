@@ -53,8 +53,8 @@ if (window.innerWidth <= 390) {
 	imageStyles.width = '200px';
 	imageStyles.height = '200px';
 	imageStyles.marginBottom = '10px';
-	titleStyles.fontSize = '2.0rem';
-	descriptionStyles.fontSize = "1.1rem"
+	titleStyles.fontSize = '1.8rem';
+	descriptionStyles.fontSize = "1.0rem"
 }
 
 export default function HomePage() {
