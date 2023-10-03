@@ -50,10 +50,10 @@ const descriptionStyles = {
 
 if (window.innerWidth <= 390) {
 	// Adjust styles for smaller screens
-	imageStyles.width = '200px';
-	imageStyles.height = '200px';
+	imageStyles.width = '180px';
+	imageStyles.height = '180px';
 	imageStyles.marginBottom = '10px';
-	titleStyles.fontSize = '1.8rem';
+	titleStyles.fontSize = '1.5rem';
 	descriptionStyles.fontSize = "1.0rem"
 }
 
