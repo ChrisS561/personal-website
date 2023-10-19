@@ -28,7 +28,28 @@ export default function Experience() {
 				<VerticalTimeline lineColor="#dedede">
 					<VerticalTimelineElement
 						className="vertical-timeline-element--work"
-						date="06/2023 - present"
+						date="10/2023 - present"
+						iconStyle={{ background: '#007acc', color: 'white' }}
+						icon={<FontAwesomeIcon icon={faBriefcase} />}
+					>
+						<h3 className="vertical-timeline-element-title">
+							Code Wiz.
+						</h3>
+						<h4 className="vertical-timeline-element-subtitle">
+							Code Instructor
+						</h4>
+						<p className="subtext">Dallas, TX</p>
+						<p className="subtext">
+							Skills: <span className="bubble">JavaScript</span>{' '}
+							<span className="bubble">Java</span>{' '}
+							<span className="bubble">Python</span>{' '}
+							<span className="bubble">Unity</span>{' '}
+							<span className="bubble">Communication</span>{' '}
+						</p>
+					</VerticalTimelineElement>
+					<VerticalTimelineElement
+						className="vertical-timeline-element--work"
+						date="06/2023 - 10/2023"
 						iconStyle={{ background: '#007acc', color: 'white' }}
 						icon={<FontAwesomeIcon icon={faBriefcase} />}
 					>
