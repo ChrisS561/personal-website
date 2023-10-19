@@ -5,7 +5,7 @@ import background from '../Images/Pxfuel.jpg';
 
 const SocialMedia = lazy(() => import('./SocialMedia'));
 
-const words = ['Software Engineer', 'Front-End Developer', 'Code Juggler'];
+const words = ['Software Engineer', 'Full Stack Developer', 'Code Juggler'];
 
 const styles = {
 	backgroundImage: `url(${background})`,
