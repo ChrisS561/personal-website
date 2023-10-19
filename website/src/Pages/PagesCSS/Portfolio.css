@@ -42,6 +42,7 @@
 
 /* Style the card image */
 .card-img {
+    height: 300px;
     max-height: 300px;
     /* Adjust the maximum height as needed */
     object-fit: cover;

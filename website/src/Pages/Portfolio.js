@@ -12,6 +12,7 @@ import {
 	CardText,
 	Button,
 } from 'reactstrap';
+import project5 from '../Images/pic.webp';
 import project4 from '../Images/tic-tac-toe.png';
 import project2 from '../Images/Copy of The CoFo Concept2.png';
 import project3 from '../Images/Logo.png';
@@ -24,7 +25,7 @@ const cardStyles = {
 };
 
 export default function Github() {
-	const pictures = [project1, project2, project3, project4];
+	const pictures = [project5, project1, project2, project3, project4];
 	return (
 		<>
 			<NavBar />
@@ -85,6 +86,7 @@ export default function Github() {
 // Define functions to get project details
 function getProjectSubtitle(index) {
 	const subtitles = [
+		'Author Website',
 		'CookBook Wizard',
 		'CofoConceptWebsite',
 		'Personal Website',
@@ -94,23 +96,25 @@ function getProjectSubtitle(index) {
 }
 
 function getProjectDescription(index) {
-	const stopWriting = 370
+	const stopWriting = 370;
 	const descriptions = [
+		"I have had the pleasure of creating a dynamic and user-friendly website for my client, Tisha Griffin, designed to showcase and promote their literary works. This website not only offers a seamless browsing experience for users to explore the author's books but also incorporates integrated payment processing through Stripe for convenient and secure book purchases.",
 		'This project showcases my skills in developing a recipe search web application using React.js, Firebase for authentication, and external APIs. The main functionality of the application allows users to input the ingredients they have in their house, and based on their input, the application displays a list of recipes that can be made using those ingredients.',
 		'Cofoconcept is a full-stack responsive fitness website built with a focus on usability and functionality. It allows our client to create and manage workout plans for their clients. The platform also includes features for uploading and selling fitness-related content such as photos, videos, and eBooks, with payment processing through PayPal and a RESTful API.',
 		'As a software engineer, my personal website highlights my technical skills and achievements, serving as a platform for me to share my portfolio and professional experience with potential clients and employers. The website features a sleek and modern design, with a user-friendly interface that makes it easy to navigate and explore. I hope you enjoy. ',
 		'This is a web-based implementation of the classic game, Tic Tac Toe, built using JavaScript, HTML, and CSS. The game features a clean and intuitive user interface that allows players to easily make their moves and keeps track of the game progress. The program includes logic to detect when a player has won the game, and displays a message accordingly.',
 	];
-	if(descriptions[index].length >= stopWriting){
-		return null
+	if (descriptions[index].length >= stopWriting) {
+		return;
 	}
 	return descriptions[index];
 }
 
 function getProjectTech(index) {
 	const techStacks = [
+		['React.js', 'Firebase', 'Stripe API', 'Material UI'],
 		['React.js', 'Firebase', 'External APIs'],
-		['React.js', 'Node.js', 'RESTful API',"Bootstrap"],
+		['React.js', 'Node.js', 'RESTful API', 'Bootstrap'],
 		['React.js', 'Bootstrap', 'HTML/CSS'],
 		['JavaScript', 'HTML', 'CSS'],
 	];
@@ -119,6 +123,7 @@ function getProjectTech(index) {
 
 function getProjectLink(index) {
 	const links = [
+		'https://github.com/ChrisS561/author-books-website',
 		'https://github.com/ChrisS561/recipe-book',
 		'https://github.com/ChrisS561/COFOConcept-1',
 		'https://github.com/ChrisS561/Portfolio',
@@ -129,6 +134,7 @@ function getProjectLink(index) {
 
 function getProjectButtonLabel(index) {
 	const labels = [
+		'In Production',
 		'View on Github',
 		'View on Github',
 		'View on Github',
